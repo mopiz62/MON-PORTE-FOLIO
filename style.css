@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1%;
+    padding-top: 0.5%;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5%;
+    
+}
+
+header > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.nom {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1%;
+    padding-right: 68%;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 150%;
+
+}
+
+.container {
+    display: grid;
+    padding-top: 7%;
+    border: 1px solid red;
+    grid-template-columns: repeat(6, 16.68%);
+    grid-template-rows: repeat(3, 300px)
+    
+}
+
+.logopc {
+    grid-column: 2/4;
+    grid-row: 1/3;
+    border: 2px solid blue;
+}
+
+.container > div {
+
+    border: 2px solid brown;
+}
