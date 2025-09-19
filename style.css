@@ -51,3 +51,11 @@ header > div {
 
     border: 2px solid brown;
 }
+
+.text {
+    font-size: 400%;
+    grid-column: 4;
+    grid-row: 1;
+    text-align: center;
+    padding-top: 50%;
+}
